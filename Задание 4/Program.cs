@@ -25,10 +25,12 @@ namespace Задание_4
                 }
        
             }
+            Console.WriteLine("Группировка элементов массива методом пузырька(по убыванию)");
             for (int i = 0; i < array.Length; i++)
             {
-                Console.WriteLine(array[i]);
+                Console.Write(array[i] + " ");
             }
+            Console.WriteLine();
         }
     }
 }
